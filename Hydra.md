@@ -28,10 +28,10 @@ For the purpose of the Christmas challenge, here are the commands to use Hydra o
 
 ### hydra -l <username> -P <full path to pass> <ip> -t 4 ssh
 
-OPTION	DESCRIPTION
--l	is for the username
--P	Use a list of passwords
--t	specifies the number of threads to use
+### OPTION	DESCRIPTION
+                       -l	is for the username
+                       -P	Use a list of passwords
+                       -t	specifies the number of threads to use
 
 # Post Web Form
 
