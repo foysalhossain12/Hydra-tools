@@ -22,7 +22,7 @@ The options we pass into Hydra depends on which service (protocol) we're attacki
 
 ### hydra -l user -P passlist.txt ftp://192.168.0.1
 
-For the purpose of the Christmas challenge, here are the commands to use Hydra on SSH and a web form (POST method).
+
 
 ### SSH
 
