@@ -26,7 +26,7 @@ The options we pass into Hydra depends on which service (protocol) we're attacki
 
 ### SSH
 
-hydra -l <username> -P <full path to pass> <ip> -t 4 ssh
+### hydra -l username -P full_path_to_pass ip -t 4 ssh
 
 ### OPTION	DESCRIPTION
                        -l	is for the username
@@ -39,7 +39,7 @@ We can use Hydra to bruteforce web forms too, you will have to make sure you kno
 
 Below is an example Hydra command to brute force a POST login form.
 
-#### hydra -l <username> -P <password list> <ip> http-post-form "/<login url>:username=^USER^&password=^PASS^:F=incorrect" -V
+#### hydra -l username -P password_list ip http-post-form "/login url:username=^USER^&password=^PASS^:F=incorrect" -V
 
 # OPTION	DESCRIPTION :
                     -l	Single username
