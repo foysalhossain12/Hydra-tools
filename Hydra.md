@@ -26,7 +26,7 @@ The options we pass into Hydra depends on which service (protocol) we're attacki
 
 ### SSH
 
-### hydra -l <username> -P <full path to pass> <ip> -t 4 ssh
+hydra -l <username> -P <full path to pass> <ip> -t 4 ssh
 
 ### OPTION	DESCRIPTION
                        -l	is for the username
